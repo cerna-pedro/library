@@ -1,0 +1,37 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "A simple library app that allows user to store book info in localStorage",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerna-pedro/library.git"
+  },
+  "keywords": [
+    "odin",
+    "parcel"
+  ],
+  "author": "Pedro Cerna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerna-pedro/library/issues"
+  },
+  "homepage": "https://github.com/cerna-pedro/library#readme",
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.608",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.608",
+    "@parcel/packager-css": "^2.0.0-nightly.608",
+    "@parcel/packager-html": "^2.0.0-nightly.608",
+    "@parcel/transformer-css": "^2.0.0-nightly.608",
+    "@parcel/transformer-html": "^2.0.0-nightly.608",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.608",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.608",
+    "autoprefixer": "^10.2.4",
+    "parcel": "^2.0.0-nightly.606",
+    "postcss": "^8.2.6"
+  }
+}
