@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hey there</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+    <title>Personal Library 📚</title>
+  </head>
+  <body>
+    <h1 id="title">Personal Library 📚</h1>
+    <main id="content">
+      <p>This web app serves as your personal library 😀</p>
+      <p >
+        It helps track which books you're interested, and displays key info
+        about them right on this page 📖
+      </p>
+      <button id="add-button">New Book</button>
+      <div id="popup">
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Book Info:</legend>
+            <label for="book-title">Title:</label>
+            <input type="text" name="book-title" id="book-title" />
+            <label for="book-author">Author:</label>
+            <input type="text" name="book-author" id="book-author" />
+            <label for="book-pages">Number of Pages:</label>
+            <input type="number" name="book-pages" id="book-pages" />
+            <label>Have you read this book?</label>
+            <input type="radio" name="read" value="yes" id="yes" />
+            <label for="yes">Yes</label>
+            <input type="radio" name="read" value="no" id="no" />
+            <label for="no">No</label>
+            <button type="submit">Add Book</button>
+            <button type="reset">Clear Boxes</button>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+    <footer>
+      Built with ❤️ by
+      <a
+        href="https://pedrocerna.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Pedro Cerna</a
+      >
+    </footer>
     <script src="./index.js"></script>
-
-</body>
+  </body>
 </html>
